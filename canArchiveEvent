@@ -1,0 +1,8 @@
+// Interface canArchiveEvent
+import java.util.Date;
+
+public interface canArchiveEvent {
+    String getEventName();
+    Date getEventDate();
+    String getEventLocation();
+}
